@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '2250151191073';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2250151191073' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,8 +20,8 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '2250151191073' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'fVgmzCZD#vcibUzGTlMjrm3z6p5dc7CUXGRExozjkCiR0Tukhe0g' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -74,7 +74,7 @@ global.APIKeys = {
 // Sticker WM
 global.premium = 'true'
 global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
+global.author = 'Ivan'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
